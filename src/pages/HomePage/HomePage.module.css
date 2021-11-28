@@ -1,0 +1,353 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.background {
+    background-image: url(../../media/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+    min-height: 1000px;
+    max-width: auto;
+    background-size: cover;
+    text-align: center;
+    padding-top: 400px;
+    font-size: 140px;
+    font-stretch: semi-condensed;
+}
+
+.section2 {
+    background-image: url(../../media/About_background.png);
+    background-size: cover;
+    max-width: auto;
+    height: 1200px;
+    padding-left: 450px;
+    padding-right: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 900px;
+    background-color: #020D17;
+}
+
+.section3Title {
+    display: flex inherit;
+    user-select: none;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+}
+
+.section3Row1 {
+    background-color: blueviolet;
+    height: 130px;
+    width: auto;
+    color: beige;
+}
+
+.section3Row2 {
+    background-color: brown;
+    height: 130px;
+    width: 80%;
+    color: beige;
+}
+
+.section3Row3 {
+    background-color: rgb(112, 165, 42);
+    height: 130px;
+    width: 50%;
+    color: beige;
+    flex-wrap: wrap;
+}
+
+.section3Row4 {
+    background-color: rgb(79, 42, 165);
+    height: 130px;
+    width: auto;
+    color: beige;
+}
+
+.section3Row5 {
+    background-color: rgb(165, 42, 69);
+    height: 130px;
+    width: auto;
+    color: beige;
+}
+
+.section3Row6 {
+    background-color: rgb(42, 161, 165);
+    height: 130px;
+    width: auto;
+    color: beige;
+}
+
+.section4 {
+    background-image: url(../../media/image.png);
+    max-width: auto;
+    height: 1000px;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Bebas Neue";
+    color: white;
+}
+
+h5 {
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 35px;
+    user-select: none;
+}
+
+.logoMain {
+    /*  width: 1312.5px; */
+    text-align: center;
+    /*  padding-left: 656.25px;
+    padding-right: 656.25px; */
+    font-family: "Bebas Neue";
+    color: #4A8C76;
+    margin-top: 450px;
+    user-select: none;
+    font-size: 120px;
+    /*   transform: scaleY(1.5) scaleX(1.9); */
+    line-height: 85%;
+    font-weight: normal;
+}
+
+hr {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 800px;
+    width: 55%;
+    margin: 0% 0% 0% 22%;
+    margin-top: -65px;
+}
+
+.miniBtn {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: initial;
+    font-size: 22px;
+    width: 250px;
+    height: 63px;
+    background-color: #4A8C76;
+    border: none;
+    color: white;
+    user-select: none;
+    letter-spacing: 1.5px;
+    border-radius: 4px;
+}
+
+.mainBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 600px;
+    padding-right: 600px;
+    margin-top: 100px;
+}
+
+.HeadNavBar {
+    font-size: initial;
+    color: white;
+    width: auto;
+    padding-left: 250px;
+    margin-top: -390px;
+    align-items: center;
+    user-select: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: white
+}
+
+img {
+    padding-right: -20px;
+    margin-left: -5px;
+}
+
+ins {
+    font-size: 40px;
+}
+
+.title {
+    font-family: "Algerian";
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.description {
+    text-align: center;
+    font-size: initial;
+    /*   transform: scaleY(1.3) scaleX(1.5); */
+    font-weight: normal;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -170px;
+}
+
+.title2 {
+    text-align: center;
+    /*     background-color: violet; */
+    user-select: none;
+    font-size: 120px;
+    line-height: 85%;
+}
+
+.title3 {
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 28px;
+    /*  background-color: tomato; */
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mainDescription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 704px;
+    height: 1200px;
+    background-color: #4a8c76af;
+}
+
+.img3 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    height: 500px;
+}
+
+.first1 {
+    background-image: url(../../media/pexels-maria-orlova-4947279.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+.second1 {
+    background-image: url(../../media/pexels-kaique-rocha-331989.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+.third1 {
+    background-image: url(../../media/pexels-nick-demou-1319462.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+.in3Div {
+    padding-left: 50px;
+    padding-top: 425px;
+    font-size: initial;
+    font-size: 30px;
+}
+
+.priseList {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.tables1 {
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+}
+
+li a:hover {
+    border-bottom: 2px solid;
+    border-color: white;
+    padding-bottom: 5px;
+}
+
+.miniBtn:hover {
+    background-color: #2d5d4d;
+}
+
+.miniBtn:active {
+    border: none;
+    transform: scale(0.9);
+}
+
+.miniBtn:focus {
+    outline: none;
+}
+
+.instagram {
+    width: auto;
+    height: 500px;
+    background-color: brown;
+    font-family: initial;
+}
+
+.footerTxt {
+    font-family: initial;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-left: 90px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 20px;
+    width: auto;
+}
+
+.footer {
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+}
+
+.titleMini {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+    padding-top: 20px;
+    font-family: "Algerian";
+}
+
+.adress {
+    width: auto;
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+}

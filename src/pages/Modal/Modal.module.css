@@ -1,0 +1,29 @@
+.modal {
+    width: 50%;
+    height:  50%;
+    background-color: #334264;
+    position: fixed;
+    margin-left: 24.5%;
+    margin-top: -5%;
+    border-radius: 15px;
+    border: brown;
+    border-width: 20px;
+    border-style: solid;
+    transform: scale(1);
+}
+.modal.active {
+    transform: scale(1);
+}
+.modalContent {
+    color: #053f38;
+}
+input {
+    background-color: gray;
+    width: 800px;
+    height: 30px;
+    font-size: 17px;
+    color: green;
+
+}
+input::-moz-placeholder { color: rgb(199, 199, 199); }
+input::-webkit-input-placeholder { color: rgb(199, 199, 199); }
