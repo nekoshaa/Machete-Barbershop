@@ -25,8 +25,6 @@ const HomePage = () => {
 
                 <b><p className={styles.logoMain}>MACHETE<br /> BARBERSHOP</p></b>
 
-
-
                 <div className={styles.mainBtn}>
 
                     <a href="#prise">  <button className={styles.miniBtn}>Прайс лист</button></a>
@@ -37,7 +35,6 @@ const HomePage = () => {
             </div>
 
             <div className={styles.section2} id="about">
-
 
                 <div className={styles.mainDescription}>
 
